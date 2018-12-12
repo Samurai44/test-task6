@@ -7,12 +7,13 @@
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "globstar": "^1.0.0",
+    "npm-run-all": "^4.1.5",
     "nu-html-checker": "^0.1.0"
   },
   "scripts": {
     "test": "npm run test:html",
     "test:html": "globstar nu-html-checker *.html",
-    "watch": "npm run watch:browsersync",
+    "watch": "npm-run-all --parallel watch:*",
     "watch:browsersync": "browser-sync start --server --files 'sass' '*.html'"
   },
   "repository": {
