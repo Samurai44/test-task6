@@ -1,0 +1,25 @@
+{
+  "name": "test-task6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "globstar": "^1.0.0"
+  },
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samurai44/test-task6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samurai44/test-task6/issues"
+  },
+  "homepage": "https://github.com/Samurai44/test-task6#readme"
+}
