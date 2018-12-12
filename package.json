@@ -12,7 +12,7 @@
   "scripts": {
     "test": "npm run test:html",
     "test:html": "globstar nu-html-checker *.html",
-    "watch": "npm run watch:*",
+    "watch": "npm run watch:browsersync",
     "watch:browsersync": "browser-sync start --server --files 'sass' '*.html'"
   },
   "repository": {
