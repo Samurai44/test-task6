@@ -7,6 +7,7 @@ body {
 body h1 {
   color: yellow;
   text-align: left;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -14,5 +15,4 @@ body p {
   color: pink;
   text-align: justify;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
